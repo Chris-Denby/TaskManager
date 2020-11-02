@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.denby'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    implementation 'com.google.guava:guava:28.2-jre'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.microsoft.azure:msal4j:1.4.0'
+    implementation 'com.microsoft.graph:microsoft-graph:1.6.0'
+    implementation 'org.slf4j:slf4j-nop:1.8.0-beta4'
+    compile group: 'org.apache.derby', name: 'derby', version: '10.14.2.0'
+}

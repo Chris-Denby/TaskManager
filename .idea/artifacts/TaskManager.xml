@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TaskManager">
+    <output-path>$USER_HOME$/Documents/Java</output-path>
+    <root id="archive" name="TaskManager.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$USER_HOME$/Documents/Java/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="TaskManager.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nimbusds/oauth2-oidc-sdk/6.5/422759fc195f65345e8da3265c69dea3c6cf56a5/oauth2-oidc-sdk-6.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/msal4j/1.4.0/d1c347a26ed97ee26d60a8ece47a063247247cb6/msal4j-1.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.graph/microsoft-graph/1.6.0/7af3b73cc605df37863f1bada6aa9b78498f7d2/microsoft-graph-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.graph/microsoft-graph-core/1.0.0/97cc063fbaef282ecbd9212fb6f5f8a65ce8cb0d/microsoft-graph-core-1.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
